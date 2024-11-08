@@ -13,14 +13,14 @@ importers:
         version: 7.1.0
     devDependencies:
       '@nx.js/nro':
-        specifier: ^0.0.53
-        version: 0.0.53
+        specifier: ^0.0.54
+        version: 0.0.54
       '@nx.js/nsp':
-        specifier: ^0.0.53
-        version: 0.0.53
+        specifier: ^0.0.54
+        version: 0.0.54
       '@nx.js/runtime':
-        specifier: ^0.0.53
-        version: 0.0.53
+        specifier: ^0.0.54
+        version: 0.0.54
       esbuild:
         specifier: ^0.17.19
         version: 0.17.19
@@ -493,19 +493,19 @@ packages:
   '@jimp/utils@0.16.13':
     resolution: {integrity: sha512-VyCpkZzFTHXtKgVO35iKN0sYR10psGpV6SkcSeV4oF7eSYlR8Bl6aQLCzVeFjvESF7mxTmIiI3/XrMobVrtxDA==}
 
-  '@nx.js/nro@0.0.53':
-    resolution: {integrity: sha512-ddoy9E3WTg3IXNH8wakI8UGaMKdAcO2C0BYiAYwGDF/mb0iEwAALQ+KP55cEsUWgTUgUSJRyK59FhnXlHusljg==}
+  '@nx.js/nro@0.0.54':
+    resolution: {integrity: sha512-9ePXnt1XBsx2/tTp+jGDKKUR+UgC7ld4kzgZTaAE33v13K5ZhnUMOJ5wvfZCj7kX7U575ZTrZb4eNn2Kr/lBpg==}
     hasBin: true
 
-  '@nx.js/nsp@0.0.53':
-    resolution: {integrity: sha512-LCd7tfhGikalPrR3qCno+kACMiGUuIrB3PpOGIOEDMBH6UNKu3wIZZ2pi/jnIDYt+T8XZQ/Smc3DgBy+0APUUQ==}
+  '@nx.js/nsp@0.0.54':
+    resolution: {integrity: sha512-uRP4BGHWcrGo0+Rb3am3v3s0LiApLSjweFCyr2LzT/YW692UCiVpww71Z4la2EK248U6Xia7tmKaXXR39R8irg==}
     hasBin: true
 
-  '@nx.js/patch-nacp@0.0.4':
-    resolution: {integrity: sha512-uWFTbNsYS7v3Z9fy+a+ylmSAEm51HaouqRhHfjJNvvDQkc9c8vgZXSA6hx8D7DzFlNWQNcUB9FEK/HqW74fXFQ==}
+  '@nx.js/patch-nacp@0.1.0':
+    resolution: {integrity: sha512-CztPmIqDDKedYt1A38c8GsrOFy3EUnNnmNCa7wmltWKjj3GotarwZf89aelLvqapFgFX+XEsaLhJt+aepCgiEQ==}
 
-  '@nx.js/runtime@0.0.53':
-    resolution: {integrity: sha512-5Gtj1HNNvn4vSRNjB6MJRSsE6Zv/bIecHvTKbVrVYZUTWZpnmkszTHuel7Z46N3ZdVVzb69xuUhFukeNTfKnEw==}
+  '@nx.js/runtime@0.0.54':
+    resolution: {integrity: sha512-1PgTOtRyUbGkJWRA7hyOHMiv0rfJLDsdwjNJU704quamSNU6bl+o8X++W0t9XOOe3FiSMia0Sn064P1XGIb8kw==}
 
   '@tokenizer/token@0.3.0':
     resolution: {integrity: sha512-OvjF+z51L3ov0OyAU0duzsYuvO01PH7x4t6DJx+guahgTnBHkhJdG7soQeTSFLWN3efnHyibZ4Z8l2EuWwJN3A==}
@@ -897,6 +897,9 @@ packages:
   type-fest@1.4.0:
     resolution: {integrity: sha512-yGSza74xk0UG8k+pLh5oeoYirvIiWo5t0/o3zHHAO2tRDiZcxWP7fywNlXhqb6/r6sWvwi+RsyQMWhVLe4BVuA==}
     engines: {node: '>=10'}
+
+  types-package-json@2.0.39:
+    resolution: {integrity: sha512-c8ua5W1Uu6x7LAwtwSGCl46cHmj+r2eAA+lXR1CluIZotu9V03ZHcGB9wKRZE2oIAX5IzMP/rxDV9g9ikCg9Nw==}
 
   utif@2.0.1:
     resolution: {integrity: sha512-Z/S1fNKCicQTf375lIP9G8Sa1H/phcysstNrrSdZKj1f9g58J4NMgb5IgiEZN9/nLMPDwF0W7hdOe9Qq2IYoLg==}
@@ -1505,9 +1508,9 @@ snapshots:
       '@babel/runtime': 7.26.0
       regenerator-runtime: 0.13.11
 
-  '@nx.js/nro@0.0.53':
+  '@nx.js/nro@0.0.54':
     dependencies:
-      '@nx.js/patch-nacp': 0.0.4
+      '@nx.js/patch-nacp': 0.1.0
       '@tootallnate/nacp': 0.0.1
       '@tootallnate/nro': 0.1.0
       '@tootallnate/romfs': 0.1.0
@@ -1517,9 +1520,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@nx.js/nsp@0.0.53':
+  '@nx.js/nsp@0.0.54':
     dependencies:
-      '@nx.js/patch-nacp': 0.0.4
+      '@nx.js/patch-nacp': 0.1.0
       '@tootallnate/nacp': 0.0.1
       bytes: 3.1.2
       chalk: 5.3.0
@@ -1529,11 +1532,12 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@nx.js/patch-nacp@0.0.4':
+  '@nx.js/patch-nacp@0.1.0':
     dependencies:
       parse-author: 2.0.0
+      types-package-json: 2.0.39
 
-  '@nx.js/runtime@0.0.53': {}
+  '@nx.js/runtime@0.0.54': {}
 
   '@tokenizer/token@0.3.0': {}
 
@@ -1933,6 +1937,8 @@ snapshots:
   type-fest@0.21.3: {}
 
   type-fest@1.4.0: {}
+
+  types-package-json@2.0.39: {}
 
   utif@2.0.1:
     dependencies:

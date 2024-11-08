@@ -16,9 +16,9 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@nx.js/nro": "^0.0.53",
-    "@nx.js/nsp": "^0.0.53",
-    "@nx.js/runtime": "^0.0.53",
+    "@nx.js/nro": "^0.0.54",
+    "@nx.js/nsp": "^0.0.54",
+    "@nx.js/runtime": "^0.0.54",
     "esbuild": "^0.17.19"
   },
   "dependencies": {
